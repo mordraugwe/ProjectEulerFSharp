@@ -16,5 +16,10 @@ module Problems =
         n % 3 = 0 || n % 5 = 0
 
     let problem1updated n =
-        [1..n-1] |> List.filter IsMultipleTo3or5     
+        [1..n-1] 
+        |> List.filter IsMultipleTo3or5     
         |> List.sum
+
+
+    let problem2 n =
+        
